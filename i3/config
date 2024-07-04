@@ -44,9 +44,6 @@ bindsym $mod+shift+s exec /usr/bin/flameshot gui
 bindsym $mod+space exec setxkbmap -layout us
 bindsym $mod+m exec setxkbmap -layout gr
 
-# Lockscreen 
-#bindsym $mod+shift+x exec loginctl lock-session ${XDG_SESSION_ID}
-
 # Brightness control
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-

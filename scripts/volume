@@ -1,0 +1,23 @@
+#!/bin/sh
+volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk -F'[:/]' '/Volume:/{print $4}' | tr -d ' %')
+is_muted=$(pactl get-sink-mute @DEFAULT_SINK@ | awk '{print $2}')
+
+if [ "$is_muted" = "yes" ]
+then
+   volume=0
+fi
+
+if [ "$volume" -gt 75 ]
+then
+   emoji="🔊"
+elif [ "$volume" -gt 50 ]
+then
+   emoji="🔉"
+elif [ "$volume" -eq 0 ]
+then
+   emoji="🔇"
+else
+   emoji="🔈"
+fi
+
+echo "$emoji $volume%"

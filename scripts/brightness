@@ -1,0 +1,4 @@
+#!/bin/sh
+bness=`sudo brightnessctl -m g`
+
+echo "$bness%"
