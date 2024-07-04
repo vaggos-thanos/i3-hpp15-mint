@@ -34,6 +34,9 @@ bindsym $mod+t exec $term
 # kill focused window
 bindsym $mod+q kill
 
+# power menu
+bindsym $mod+shift+q exec rofi -show p -modi p:'rofi-power-menu --no-symbols' -font "Ubuntu 16" -theme DarkBlue -theme-str 'window {width: 8em;} listview {lines: 6;}'
+
 # start dmenu (a program launcher)
 bindsym $mod+d exec rofi -show drun -config ~/.config/i3/config.rasi
 

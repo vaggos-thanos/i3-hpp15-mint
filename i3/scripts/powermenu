@@ -1,0 +1,2 @@
+#!/bin/sh
+rofi -show p -modi p:'rofi-power-menu --no-symbols' -font "Ubuntu 16" -theme DarkBlue -theme-str 'window {width: 8em;} listview {lines: 6;}'
