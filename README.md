@@ -1,3 +1,5 @@
+![Desktop screenshot](desktop.png)
+
 Dependencies:
 - i3
 - i3blocks
