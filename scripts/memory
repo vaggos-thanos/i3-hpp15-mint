@@ -45,5 +45,12 @@ END {
 	# TODO: short text
 
 	# TODO: color (if less than X%)
+	# Assuming X% is 20%
+	usage=15
+	if [ $usage -lt 20 ]; then
+		echo -e "\e[31mUsage is less than 20%\e[0m" # Red color
+	else
+		echo "Usage is above 20%"
+	fi
 }
 ' /proc/meminfo

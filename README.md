@@ -35,3 +35,7 @@ Disclaimers:
 To-Do:
 -
 - Make keyboard layouts switchable with a single keybind instead of having separate ones for each layout.
+
+---
+Installation:
+- sudo apt install -y i3 i3blocks i3status kitty rofi rofi-power-menu i3lock-color xss-lock brightnessctl feh Pulseaudio flameshot zsh neofetch ohmyzsh firefox-dev
