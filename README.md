@@ -8,19 +8,22 @@ Dependencies:
 - kitty
 - rofi
 - rofi-power-menu
-- i3lock-color
+- i3lock-color ?
 - xss-lock
 - brightnessctl
 - feh
 - Pulseaudio (should be already installed if using Mint)
+- hda-verb (alsa-tools)
+- conky
 
 Other programs mentioned:
--
 - Flameshot
 - zsh
 - ohmyzsh
 - Firefox Developer Edition
 - neofetch
+
+
 
 Disclaimers:
 -

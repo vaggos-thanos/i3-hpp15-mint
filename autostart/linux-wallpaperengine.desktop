@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Wallpaper Engine
+Icon=/home/vaggos-dev/linux-wallpaperengine/wallpaper-engine-icon.png
+Exec=/home/vaggos-dev/linux-wallpaperengine/starter.sh
+Version=1.0
+Type=Application
+Categories=Development
+X-GNOME-Autostart-enabled=true
+StartupNotify=true
+X-GNOME-Autostart-Delay=10
+X-MATE-Autostart-Delay=10
+X-KDE-autostart-after=panel
+Comment[en_US]=Wallpaper Engine for linux 
